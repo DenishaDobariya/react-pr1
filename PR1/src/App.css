@@ -1,0 +1,39 @@
+*{
+  margin: 0;
+  box-sizing: border-box;
+}
+.container {
+  margin: 0 auto;
+  width: 1140px;
+  padding: 0 15px;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -15px;
+  justify-content: space-between;
+}
+.user-card {
+  flex: 0 0 calc(33.33% - 20px);
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  width: calc(33.33% - 30px);
+  background-color: rgb(126, 126, 128);
+}
+.user-card img {
+  width: 50%;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+.user-details h2 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+.user-details p {
+  margin: 5px 0;
+}
+.title {
+  text-align: center;
+}
